@@ -5,7 +5,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="mgr_store")
-public class Manager extends Employee 
+public class Manager extends Employee
 {
 
 	private static final long serialVersionUID = 1L;
@@ -20,4 +20,6 @@ public class Manager extends Employee
 		this.departmentName = departmentName;
 	}
 	
+	
+
 }

@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class InheritanceTest 
+public class InheritanceTest
 {
 
 	public static void main(String[] args) {
@@ -15,13 +15,13 @@ public class InheritanceTest
 		
 		//create one employee
 		Employee employee = new Employee();
-		employee.setName("Richad");
+		employee.setName("Sayali");
 		employee.setSalary(5000);
 		em.persist(employee);
 		
 		//create one manager
 		Manager manager = new Manager();
-		manager.setName("Sabira");
+		manager.setName("Sagar");
 		manager.setSalary(8000);
 		manager.setDepartmentName("Sales");
 		em.persist(manager);

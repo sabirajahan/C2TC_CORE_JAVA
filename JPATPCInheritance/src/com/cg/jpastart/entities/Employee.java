@@ -12,8 +12,9 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="emp_store")
-@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)	//This annotation must be written only on parent class
-public class Employee implements Serializable {
+@Inheritance(strategy=InheritanceType.TABLE_PER_CLASS)			//This annotation must be written only on parent class
+public class Employee implements Serializable 
+{
 
 	/**
 	 * 
